@@ -11,10 +11,10 @@ a{
    flex-flow: column nowrap;
 }
     .cabecera{
-        background: url("../images/Fondo2.JPG");
+        background: url(../images/Fondo2.JPG);
         background-position: center;
-        background-size: center;
-        background-attachment: center;
+        background-size: cover;
+        background-attachment: contain;
         display: flex;
         flex-flow: column nowrap;
      }
